@@ -6,8 +6,7 @@ Responder con sus propias palabras (minimo 3-4 lineas cada una).
 
 ## 1. Infraestructura
 **Si tu app necesita conectarse a PostgreSQL pero el contenedor de la BD tarda 30 segundos en arrancar, que pasa? Como lo solucionarias?**
-
-[Tu respuesta]
+Usar una combinación de `depends_on` y `healthcheck` en el `docker-compose.yml`.
 
 ## 2. JPA
 **Por que `findAll()` puede ser lento con 100,000 registros? Que alternativa usarias?**
